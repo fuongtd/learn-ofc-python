@@ -8,7 +8,7 @@ import requests as req
 from base64 import b64encode
 from nacl import encoding, public
 
-log_path = sys.path[0] + r'/info.log'
+log_path = sys.path[0] + r'/save.py'
 
 
 def get_token():
