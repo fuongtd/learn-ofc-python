@@ -1,5 +1,5 @@
 #call to the API to keep alive, encrypted version
-name: learn_ofc_python
+name: ofc
 
 on: 
   release:
