@@ -1,4 +1,4 @@
-name: AutoApi
+name: ofc
 
 on: 
   release:
