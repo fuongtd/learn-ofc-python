@@ -31,8 +31,7 @@ jobs:
     - name: read config from secrets
       env: 
         id: ${{ secrets.CONFIG_ID }}
-        secret: ${{ secrets.CONFIG_KEY }}
-        token: ${{secrets.GPT_TOKEN}}
+        secret: ${{ secrets.CONFIG_KEY }}        
         refresh_token: ${{secrets.REFRESH_TOKEN}}
       run: |    
         python ofc.py
