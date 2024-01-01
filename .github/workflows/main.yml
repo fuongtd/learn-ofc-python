@@ -9,7 +9,7 @@ on:
     tags:
     - 'v*'
   schedule:
-    - cron: 0/5 * * * *
+    - cron: 
   watch:
     types: [started]
    
